@@ -1,1 +1,0 @@
-local player = game.Players.LocalPlayer local char = player.Character or player.CharacterAdded:Wait() local hrp = char:WaitForChild("HumanoidRootPart") local targetPosition = Vector3.new(1.30, 14, 3243.04) hrp.Position = targetPosition
